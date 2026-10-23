@@ -2,8 +2,8 @@
 //10-23-2026
 //Taco Truck Dashboard
 /* We had to make a user inferface for a Taco Truck, while following the requirements and optional challenges. I chose to do one of the challenges, being the end day button. This was both easier and harder than I expected it to be, mainly because I mostly kept forgetting certain functions and had to constantly ask for help and occasionally look it up on the internet. But there were times when I felt like I was in the perfect mindset, never wanting to stop and wanting to continue the flow. */
-//Peer Reviewer: 
-//Review: 
+//Peer Reviewer: Chris Estrada
+//Review: Nice design and a good fall themed color scheme and you hit all of the requirements. since it was a challenge it's more of an fyi but the end the day button doesn't remove the text from the location box. it wasn't a requirement to remove this info when setting the location so it's up to you if you wanted to update it. Also, a design suggestion but the white boxes really stand out against the background so may give them the same background but bold the box and text.  
 
 
 -----INSTRUCTIONS-----
