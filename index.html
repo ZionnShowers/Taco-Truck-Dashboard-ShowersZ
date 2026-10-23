@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaiah's Taco Truck</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+ <body class="p-6 bg-orange-800"> <!-- flex flex-col -->
+    <header>
+        <h1 class="text-2xl font-bold bg-orange-300 p-1 w-full max-w-[375px] rounded-xl flex justify-center">Isaiah's Taco Truck</h1>
+    </header>
+    
+    <p id="status" class="mb-4 font-bold text-red-500 bg-orange-300 p-1 w-full max-w-[375px] rounded-2xl flex justify-center">Closed</p>
+   
+    <div class="flex justify-between w-full max-w-[375px]">
+        <button id="open-button" class="border px-3 py-1 bg-orange-500">Open the truck</button>
+        <button id="end-day-button" class="border px-3 py-1 bg-orange-500">End the day</button>
+    </div>
+
+    <div>
+        <p id="cur-location"class="mt-8 bg-orange-500 w-full max-w-[375px] rounded border p-1">Current location: Unknown</p>
+        <label for="loc-name" class="mt-4 font-bold">Set location:</label>
+        <input id="loc-name" class="border px-1 bg-white" type="text">  
+        <button id="postLoc-btn" class="border px-3 py-1 bg-green-600 text-white">Post location</button>
+    </div>
+
+    
+    <p class="mt-8 font-bold">Add to items list</p>
+    <div class="border-1 p-1 w-full max-w-[375px] bg-orange-500">
+        
+        <label for="item-name" class="mt-2 w-full max-w-[375px]">Item Name:</label>
+        <textarea id="item-name" class="border px-1 w-full max-w-[375px] bg-white" type="text"></textarea>
+        <label for="item-desc" class="mt-2">Item Description:</label>
+        <textarea id="item-desc" class="border px-1 w-full max-w-[375px] h-20 bg-white" type="text"></textarea>
+        <button id="postItem-btn" class=" border px-3 py-1 bg-green-600 text-white">Post item</button> 
+        
+    </div>
+    
+    <p id="amount-sold" class="mt-8 font-bold">Amount sold info</p>
+   
+    <p class="mt-8 font-bold ">Items list</p>
+    <section class="border w-full max-w-[375px] bg-white rounded">
+        <ul id="prep-list" class="list-disc pl-5"></ul>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.open {
+    color: green;
+    /* font-weight: bold; */
+}
+
+.closed {
+    color: red;
+}
+
+.remove-button {
+    margin-left: 8px;
+    border: 1px solid;
+    padding: 0 6px;
+    background-color: gray;
+}
+
+.sold-button {
+    margin-left: 8px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    padding: 0 6px;
+}
+
+.sold-out {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.empty {
+  color: gray;
+  font-style: italic;
+}
+
+.body {
+    background-color: rgb(160, 78, 50);
+}
+
+.prep-list {
+    background-color: rgb(173, 163, 159);
+}
